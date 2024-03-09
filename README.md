@@ -62,21 +62,17 @@ This initialization process ensures that each library instance has unique identi
 
 **Book Management**
 
-1.Add Book:
 
 Users can add a new book to the library.
 Required details include the book name, author name, and price.
 
-2.Remove Book:
 
 Users can remove a book from the library by providing the book's name.
 
-3.Update Book:
 
 Users can update existing book details.
 Options include updating the book name, author name, or price.
 
-4.Get Book:
 
 Users can retrieve details of a specific book by searching for it using its name.
 
