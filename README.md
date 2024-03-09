@@ -102,13 +102,23 @@ Choose options to add, remove, update, or get book details.
 
 **Use Cases**
 
+**To Add Book**
+
 ![image](https://github.com/hardikshelar/Library-Management-System-Core-Java-Project/assets/90783840/6f1591ed-b039-4c82-8407-30c993a4e4f9)
+
+**To Update Book**
 
 ![image](https://github.com/hardikshelar/Library-Management-System-Core-Java-Project/assets/90783840/9b2aa6ae-f9dc-4bef-b02b-fe915f31f426)
 
+**To Fetch Book**
+
 ![image](https://github.com/hardikshelar/Library-Management-System-Core-Java-Project/assets/90783840/faca51a9-6510-41cb-9c09-7f81d8c4b5f4)
 
+**To Remove Book**
+
 ![image](https://github.com/hardikshelar/Library-Management-System-Core-Java-Project/assets/90783840/0001cb21-7a3d-49ba-9dc7-86af93eda188)
+
+**To Exit Console**
 
 ![image](https://github.com/hardikshelar/Library-Management-System-Core-Java-Project/assets/90783840/7d7bd64f-486a-45e3-a9a6-9cdc6e93bb13)
 
