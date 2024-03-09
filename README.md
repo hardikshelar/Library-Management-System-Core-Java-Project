@@ -6,20 +6,47 @@ This console-based Library Management System (LMS) project is implemented in Cor
 
 **Model**
 
-The com.jsp.lms.model package contains classes defining the data model for the library.
+The **com.jsp.lms.model package** contains classes defining the data model for the library.
 The Library class represents the core data structure, encapsulating details such as library name, address, and pin code.
 The Book class defines the structure for individual books, including attributes like name, author, and price.
 
 **View**
 
-The com.jsp.lms.view package houses the user interface layer.
+The **com.jsp.lms.view package** houses the user interface layer.
 The View class handles user input and output, providing an interactive console-based interface.
 User interactions trigger actions within the Controller to maintain a clear separation of concerns.
 
 **Controller**
 
-The com.jsp.lms.controller package contains the controller logic responsible for handling user input, processing requests, and managing the library's book inventory.
-The Controller class serves as the intermediary between the View and Model, orchestrating the flow of data and operations.
+The **com.qsp.lms_controller** package contains the controller logic, serving as the intermediary between the View and Model.
+The controller class orchestrates the flow of data and operations, ensuring that user requests are appropriately processed.
+
+**Controller Operations**
+
+1.Add Book:
+
+The **'addBook'** method allows the addition of a new book to the library's inventory.
+It ensures the existence of the books list and updates the library's book collection.
+
+2.Get Book:
+
+The **'getBook'** method retrieves a book from the library based on the provided book name.
+It iterates through the list of books to find the matching book and returns it.
+
+3.Update Book:
+
+The **'updateBook'** method updates an existing book with new information.
+It searches for the book to be updated, removes it from the list, and adds the updated version.
+
+4.Remove Book:
+
+The **'removeBook'** method removes a book from the library's inventory based on the provided book name.
+It iterates through the list of books, finds the matching book, and removes it.
+
+**Controller Interaction**
+
+The controller class interacts directly with the library model to retrieve and update the list of books.
+It ensures data integrity and consistency by managing the flow of information between the user interface and the underlying data model.
 
 **Features**
 
@@ -58,7 +85,38 @@ Users can retrieve details of a specific book by searching for it using its name
 The program provides a simple and interactive console-based user interface.
 Users are presented with a menu, and they can input a digit corresponding to the desired operation.
 
-Continuous Operation
+**Continuous Operation**
 
 The program runs in a loop, allowing users to perform multiple operations without restarting.
 Users can exit the program gracefully by choosing the "Exit" option.
+
+**How to Run**
+
+1.Clone the Repository: 
+
+git clone https://github.com/your-username/library-management-system.git
+
+2.Compile and Run:
+
+javac com/jsp/lms/view/View.java, 
+java com/jsp/lms/view/View
+
+3.Follow On-screen Prompts:
+
+Enter library details during initialization.
+
+Choose options to add, remove, update, or get book details.
+
+**Use Cases**
+
+![image](https://github.com/hardikshelar/Library-Management-System-Core-Java-Project/assets/90783840/6f1591ed-b039-4c82-8407-30c993a4e4f9)
+
+![image](https://github.com/hardikshelar/Library-Management-System-Core-Java-Project/assets/90783840/9b2aa6ae-f9dc-4bef-b02b-fe915f31f426)
+
+![image](https://github.com/hardikshelar/Library-Management-System-Core-Java-Project/assets/90783840/faca51a9-6510-41cb-9c09-7f81d8c4b5f4)
+
+![image](https://github.com/hardikshelar/Library-Management-System-Core-Java-Project/assets/90783840/0001cb21-7a3d-49ba-9dc7-86af93eda188)
+
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+
+
