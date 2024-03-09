@@ -92,16 +92,13 @@ Users can exit the program gracefully by choosing the "Exit" option.
 
 **How to Run**
 
-1.Clone the Repository: 
-
-git clone https://github.com/your-username/library-management-system.git
-
-2.Compile and Run:
+1.Compile and Run:
 
 javac com/jsp/lms/view/View.java, 
+
 java com/jsp/lms/view/View
 
-3.Follow On-screen Prompts:
+2.Follow On-screen Prompts:
 
 Enter library details during initialization.
 
